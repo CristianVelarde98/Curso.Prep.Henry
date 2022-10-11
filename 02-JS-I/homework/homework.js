@@ -248,22 +248,22 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   var SoloLetra = letra.length;
-  var Vocales = ['a','e','i','o','u'];
+  var letraA = "a";
+  var letraE = "e";
+  var letraI = "i";
+  var letraO = "o";
+  var letraU = "u";
 
   if (SoloLetra !== 1){
      return "Dato incorrecto";
-  };
-
-  if (letra !== Vocales){
+  }else{
+    if (letra !== letraA || letra !== letraE || letra !== letraI || letra !== letraO || letra !== letraU){
       return "Dato incorrecto";
-    }; 
-      
-  if (letra === Vocales){
-      return "Es vocal";
-    };
-    
-  
-  
+    }else{
+      if (letra === letraA || letra === letraE || letra === letraI || letra === letraO || letra === letraU){
+        return "Es vocal";
+    }
+  }
 }
 
 
