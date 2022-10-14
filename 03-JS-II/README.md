@@ -193,7 +193,7 @@ Un par de cosas a tener en cuenta sobre los operadores lógicos.
 
 * Usá paréntesis. Como vimos en el segundo ejemplo de operador `!`, usamos paréntesis para evaluar PRIMERO lo que estaba dentro de los paréntesis, luego aplicamos el operador `!`. Podemos ajustar cualquier expresión entre paréntesis y se evaluará antes de evaluar la expresión como un todo.
 
-## Bucles `for`
+## Bucles `for` 
 
 La mayoría del software se ejecuta en bucles, evaluando expresiones una y otra vez hasta que devuelve lo que estamos buscando o se detiene después de cierto tiempo. Javascript tiene dos expresiones de bucle incorporadas y hoy veremos la primera, el bucle "for".
 
@@ -248,7 +248,7 @@ Si sabemos las variables a tomar, como en el ejemplo `str`, podemos darle nombre
 < ["hola!", "otro parametro", 3, callee: 'function', Symbol(Symbol.iterator): 'function']
 ```
 
-_arguments_ nos da acceso a la **n** cantidad como parámetros, pero tengamos en cuenta que **no es un Arreglo**.
+_arguments_ nos da acceso a la **n** cantidad como parámetros, pero tengamos en cuenta que **no es un Arreglo/Array**.
 
 ``` javascript
 > function args() {
